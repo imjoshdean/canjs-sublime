@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+<![CDATA[can.Model.extend({
+	findAll: 'GET /${0:example}',
+	findOne: 'GET /${0:example}/{id}',
+	create: 'POST /${0:example}',
+	update: 'PUT /${0:example}',
+	destroy: 'DELETE /${0:example}'
+}, {
+
+});]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>can-model</tabTrigger>
+	<description>Extend can.Model</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js -string -comment -constant</scope>
+</snippet>
