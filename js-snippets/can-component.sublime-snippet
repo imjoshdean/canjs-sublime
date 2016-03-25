@@ -1,0 +1,23 @@
+<snippet>
+	<content>
+		<![CDATA[can.Component.extend({ 
+			tag: '${0:example-component}',
+			template: '<h1>Hello world!</h1>',
+			viewModel: {},
+			helpers: {},
+			events: {
+				inserted: function(el, ev) {
+
+				},
+				removed: function(el, ev) {
+
+				}
+			}
+		});]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>can-component</tabTrigger>
+	<description>Generate a new component</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js -string -comment -constant</scope>
+</snippet>
