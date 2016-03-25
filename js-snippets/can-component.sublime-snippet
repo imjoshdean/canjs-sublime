@@ -1,19 +1,19 @@
 <snippet>
 	<content>
-		<![CDATA[can.Component.extend({ 
-			tag: '${0:example-component}',
-			template: '<h1>Hello world!</h1>',
-			viewModel: {},
-			helpers: {},
-			events: {
-				inserted: function(el, ev) {
+<![CDATA[can.Component.extend({ 
+	tag: '${0:example-component}',
+	template: '<h1>Hello world!</h1>',
+	viewModel: {},
+	helpers: {},
+	events: {
+		inserted: function(el, ev) {
 
-				},
-				removed: function(el, ev) {
+		},
+		removed: function(el, ev) {
 
-				}
-			}
-		});]]>
+		}
+	}
+});]]>
 	</content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>can-component</tabTrigger>
