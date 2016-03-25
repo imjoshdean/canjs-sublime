@@ -9,3 +9,7 @@ and manually install from github:
 ```
 git clone https://github.com/imjoshdean/canjs-sublime.git
 ```
+
+## Top Contributors
+
+- [akagomez](https://github.com/akagomez)
