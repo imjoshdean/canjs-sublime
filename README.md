@@ -4,7 +4,7 @@ Welcome to the CanJS [Sublime Text](http://www.sublimetext.com/) plugin.
 The plugin creates a bunch of snippets to facilitate CanJS integration into 
 Sublime Text.
 
-![](https://zippy.gfycat.com/LivelyAridCommongonolek.gif)
+![](https://fat.gfycat.com/WarmheartedAbsoluteEwe.gif)
 
 
 ## Installation
