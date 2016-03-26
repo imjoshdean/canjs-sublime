@@ -1,6 +1,6 @@
 <snippet>
 	<content>
-<![CDATA[{{#unless ${0}}}
+<![CDATA[{{#unless ${1:key}}}
 
 {{else}}
 

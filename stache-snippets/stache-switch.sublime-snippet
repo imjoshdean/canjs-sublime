@@ -1,15 +1,19 @@
 <snippet>
 	<content>
-<![CDATA[{{#if ${1:key}}}
+<![CDATA[{{#switch ${1:expr}}}
+	{{#case ${2:expr}}}
 
-{{else}}
+	{{/case}}
 
-{{/if}}
+	{{#default}}
+
+	{{/default}}
+{{/each}}
 ]]>
 	</content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>stache-if</tabTrigger>
-	<description>Stache {{#if}} tag</description>
+	<tabTrigger>stache-switch</tabTrigger>
+	<description>Stache {{#switch}} tag</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 </snippet>

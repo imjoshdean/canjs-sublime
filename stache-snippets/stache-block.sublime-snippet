@@ -1,15 +1,13 @@
 <snippet>
 	<content>
-<![CDATA[{{#if ${1:key}}}
+<![CDATA[{{#${1:key}}}
 
-{{else}}
-
-{{/if}}
+{{/${1:key}}}
 ]]>
 	</content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>stache-if</tabTrigger>
-	<description>Stache {{#if}} tag</description>
+	<tabTrigger>stache-block</tabTrigger>
+	<description>Stache {{#block}} tag</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 </snippet>
