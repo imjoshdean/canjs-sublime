@@ -5,9 +5,7 @@
 
 });]]>
 	</content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>can-construct</tabTrigger>
 	<description>Extend can.Construct</description>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js -string -comment -constant</scope>
 </snippet>

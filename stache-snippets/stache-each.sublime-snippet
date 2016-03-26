@@ -5,9 +5,7 @@
 {{/each}}
 ]]>
 	</content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>stache-each</tabTrigger>
 	<description>Stache {{#each}} tag</description>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 </snippet>

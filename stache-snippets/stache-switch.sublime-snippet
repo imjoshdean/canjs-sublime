@@ -11,9 +11,7 @@
 {{/each}}
 ]]>
 	</content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>stache-switch</tabTrigger>
 	<description>Stache {{#switch}} tag</description>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 </snippet>
