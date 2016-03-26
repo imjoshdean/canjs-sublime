@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+<![CDATA[can.Control.extend({
+	defaults: {
+
+	}
+}, {
+	init: function(el, options) {
+
+	}
+});]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>can-control</tabTrigger>
+	<description>Extend can.Control</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js -string -comment -constant</scope>
+</snippet>
