@@ -1,11 +1,11 @@
 <snippet>
 	<content>
 <![CDATA[can.Model.extend({
-	findAll: 'GET /${0:example}',
-	findOne: 'GET /${0:example}/{id}',
-	create: 'POST /${0:example}',
-	update: 'PUT /${0:example}',
-	destroy: 'DELETE /${0:example}'
+	findAll: 'GET /${1:example}',
+	findOne: 'GET /${1:example}/{id}',
+	create: 'POST /${1:example}',
+	update: 'PUT /${1:example}',
+	destroy: 'DELETE /${1:example}'
 }, {
 
 });]]>
